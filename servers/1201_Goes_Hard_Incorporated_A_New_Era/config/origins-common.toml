@@ -1,0 +1,172 @@
+
+[origins]
+
+	[origins."toomanyorigins:withered"]
+		"toomanyorigins:deathly_digestion" = true
+		"toomanyorigins:unholy" = true
+		"toomanyorigins:affliction" = true
+		"origins:nether_spawn" = true
+		"toomanyorigins:spirit_strider" = true
+		enabled = true
+		"toomanyorigins:soul_siphon" = true
+		"toomanyorigins:hell_raised" = true
+
+	[origins."origins:arachnid"]
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+		"origins:master_of_webs" = true
+		enabled = true
+		"origins:climbing" = true
+
+	[origins."toomanyorigins:hare"]
+		"origins:vegetarian" = true
+		"toomanyorigins:frail" = true
+		"toomanyorigins:hot_hops" = true
+		"toomanyorigins:drenchable_fur" = true
+		"toomanyorigins:cancel_out_sprint_disable_on_hit" = true
+		"toomanyorigins:extra_step_height" = true
+		"toomanyorigins:waterskipper" = true
+		"toomanyorigins:prevent_movement_checks" = true
+		enabled = true
+		"toomanyorigins:superfall" = true
+		"toomanyorigins:small_appetite" = true
+
+	[origins."voidwalker:voidwalker"]
+		"voidwalker:levitation" = true
+		"voidwalker:gravity_manipulation" = true
+		"voidwalker:field_forces" = true
+		"voidwalker:chaotic_accelerant" = true
+		"voidwalker:entropic_bloom" = true
+		"voidwalker:no_fall" = true
+		"voidwalker:void_energy" = true
+		"voidwalker:blink" = true
+		"voidwalker:authors" = true
+		enabled = true
+		"voidwalker:path_of_the_void" = true
+
+	[origins."origins:enderian"]
+		"origins:water_vulnerability" = true
+		"origins:throw_ender_pearl" = true
+		"origins:pumpkin_hate" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+		enabled = true
+		"origins:extra_reach" = true
+
+	[origins."origins:feline"]
+		"origins:cat_vision" = true
+		"origins:velvet_paws" = true
+		"origins:fall_immunity" = true
+		"origins:weak_arms" = true
+		"origins:nine_lives" = true
+		enabled = true
+		"origins:sprint_jump" = true
+		"origins:scare_creepers" = true
+
+	[origins."toomanyorigins:dragonborn"]
+		"toomanyorigins:block_synergistics" = true
+		"toomanyorigins:zenith_scales" = true
+		"toomanyorigins:rough_claws" = true
+		"toomanyorigins:draconic_breath" = true
+		"toomanyorigins:weaponry_pride" = true
+		enabled = true
+
+	[origins."toomanyorigins:swarm"]
+		"toomanyorigins:stinging_pains" = true
+		"origins:arthropod" = true
+		"toomanyorigins:unity" = true
+		"toomanyorigins:beekeeper" = true
+		"toomanyorigins:pollination" = true
+		"toomanyorigins:hover" = true
+		"toomanyorigins:calming_aura" = true
+		enabled = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."origins:shulk"]
+		"origins:strong_arms" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:natural_armor" = true
+		enabled = true
+		"origins:shulker_inventory" = true
+
+	[origins."origins:merling"]
+		"origins:air_from_potions" = true
+		"origins:swim_speed" = true
+		"origins:water_vision" = true
+		"origins:like_water" = true
+		"origins:aqua_affinity" = true
+		"origins:water_breathing" = true
+		"origins:conduit_power_on_land" = true
+		enabled = true
+		"origins:aquatic" = true
+
+	[origins."origins:phantom"]
+		"origins:phasing" = true
+		"origins:fragile" = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:invisibility" = true
+		"origins:hunger_over_time" = true
+		enabled = true
+		"origins:burn_in_daylight" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."improved_inchling:improved_inchling"]
+		"improved_inchling:fragile_bones" = true
+		"improved_inchling:silent_stride" = true
+		"improved_inchling:delicate_swimmer" = true
+		"improved_inchling:delicate_dodger" = true
+		"improved_inchling:inchling_ascendancy" = true
+		enabled = true
+		"improved_inchling:slow_miner" = true
+		"improved_inchling:efficient_metabolism" = true
+		"improved_inchling:companion_mounter" = true
+		"improved_inchling:sugar_fueled_frenzy" = true
+		"improved_inchling:burdened_armor" = true
+		"improved_inchling:minuscule_majesty" = true
+		"improved_inchling:featherlight_glide" = true
+		"improved_inchling:nimble_nature" = true
+
+	[origins."origins:blazeborn"]
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:fire_immunity" = true
+		"origins:damage_from_snowballs" = true
+		"origins:nether_spawn" = true
+		"origins:damage_from_potions" = true
+		enabled = true
+
+	[origins."toomanyorigins:hisskin"]
+		"toomanyorigins:buildup" = true
+		"toomanyorigins:stubby_legs" = true
+		"toomanyorigins:conductive" = true
+		"toomanyorigins:aerial_stability" = true
+		"toomanyorigins:redirect_lightning_chance" = true
+		"toomanyorigins:ailurophobia" = true
+		enabled = true
+
+	[origins."origins:elytrian"]
+		"origins:more_kinetic_damage" = true
+		"origins:elytra" = true
+		"origins:claustrophobia" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:launch_into_air" = true
+		enabled = true
+
+	[origins."origins:avian"]
+		"origins:fresh_air" = true
+		"origins:vegetarian" = true
+		"origins:lay_eggs" = true
+		"origins:slow_falling" = true
+		"origins:tailwind" = true
+		"origins:like_air" = true
+		enabled = true
+

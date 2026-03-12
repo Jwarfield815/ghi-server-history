@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../style.css" />
+        <title>Place Your Order</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <!-- target="_blank" for open new tab -->
+    <body>
+        <div class="header">
+            <a href="/"><img class="logo" src="../amazon logo.png" /></a>
+            
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="hamburgerIcon" onclick="openHamburger()">
+                <img class="burger" src="../burger-menu-svgrepo-com.svg">
+            </a>
+            <div class="navigation">
+                <a class="navLink" href="/">Home</a>
+                <a class="navLink" href="/pages/faqs.html">FAQs</a>
+                <a class="navLink" href="/pages/suggestions.html">Suggestions</a>
+                <a class="navLink" href="/pages/about.html">About</a>
+            </div>
+            <div class="forStyling"></div>
+            <!-- Navigation links (hidden by default) -->
+        </div>
+        <div class="mobileNav">
+            <a class="navLink" href="/">Home</a>
+            <a class="navLink" href="/pages/faqs.html">FAQs</a>
+            <a class="navLink" href="/pages/suggestions.html">Suggestions</a>
+            <a class="navLink" href="/pages/about.html">About</a>
+        </div>
+
+        <div class="purchase">
+            <h2>Thanks for deciding to purchase Goes Hard Inc. Premium!</h2>
+            <div class="creditCard">
+                <div class="mainNumberWrapper">
+                    <label for="mainNumbers">Credit Card Number</label>
+                    <input type="text" name="Credit Card Number" id="mainNumbers" class="mainNumbers"/>
+                </div>
+                <div class="expirationWrapper">
+                    <label for="expiration">Expiration Date</label>
+                    <input type="text" id="expiration" class="expiration" />
+                </div>
+                <div class="cvcWrapper">
+                    <label for="cvc">Security Code</label>
+                    <input type="text" id="cvc" class="cvc" />
+                </div>
+                <button class="purchaseButton" onclick="purchased(this)">Submit</button>
+            </div>
+        </div>
+
+        <script>function purchased(submitButton) { submitButton.textContent = "lol" }</script>
+        <script src="../script.js"></script>
+    </body>
+</html>

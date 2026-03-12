@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../../style.css">
+    <title>Goes Hard Inc.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+    <div class="header">
+        <a href="/"><img class="logo" src="../../amazon logo.png" /></a>
+        
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="hamburgerIcon" onclick="openHamburger()">
+            <img class="burger" src="../../burger-menu-svgrepo-com.svg">
+        </a>
+        <div class="navigation">
+            <a class="navLink" href="/">Home</a>
+            <a class="navLink" href="/pages/faqs.html">FAQs</a>
+            <a class="navLink" href="/pages/suggestions.html">Suggestions</a>
+            <a class="navLink" href="/pages/about.html">About</a>
+        </div>
+        <div class="forStyling"></div>
+        <!-- Navigation links (hidden by default) -->
+    </div>
+    <div class="mobileNav">
+        <a class="navLink" href="/">Home</a>
+        <a class="navLink" href="/pages/faqs.html">FAQs</a>
+        <a class="navLink" href="/pages/suggestions.html">Suggestions</a>
+        <a class="navLink" href="/pages/about.html">About</a>
+    </div>
+
+    <div class="mainContent">
+        <div class="mobileServerName">Goes Hard Inc.</div>
+        <div class="serverImages">
+            <div class="listOfImages"></div>
+            <div class="currentImage"><img class="bigImage" id="bigImage" onclick="enlargeImage(this.src)" /></div>
+        </div>
+
+        <div class="serverInformation">
+            <div class="serverName">Goes Hard Inc.</div>
+            
+            <hr />
+            
+            <div class="downloadSize">
+                <p class="worldDownloadSize">World Download: ???GB</p>
+                <p class="modpackDownloadSize">Modpack Download: 93.2MB</p>
+            </div>
+            
+            <hr />
+
+            <div class="aboutServer">
+                <div class="aboutTitle">About this Server</div>
+                <ul>
+                    <li>This world has been lost to time, if you have any information about it, please contact me on Discord</li>
+                    <li>Began December 25 2023</li>
+                    <li>Last played March 14, 2024. Ended March 25, 2024</li>
+                    <li>Ran on Minecraft Version 1.18.2</li>
+                </ul>
+                
+                <hr />
+
+                <div class="modListWrapper">
+                    <div class="modsTitle">Mods Used</div>
+                    <ul class="modList">
+                        <li class="modLink">Applied Energistics 2 Wireless Terminals</li>
+                        <li class="modLink">Applied Energistics 2</li>
+                        <li class="modLink">AI Improvements</li>
+                        <li class="modLink">Akashic Tome</li>
+                        <li class="modLink">Alternate Current</li>
+                        <li class="modLink">Animal Feeding Trough</li>
+                        <li class="modLink">Apotheosis (INFINITE NETHERITE BABEE!!!)</li>
+                        <li class="modLink">Architectury</li>
+                        <li class="modLink">Ars Nouveau</li>
+                        <li class="modLink">Ars Creo</li>
+                        <li class="modLink">Ars Elemental</li>
+                        <li class="modLink">Ars Instrumentum</li>
+                        <li class="modLink">Artifacts</li>
+                        <li class="modLink">AutoRegLib</li>
+                        <li class="modLink">Balm</li>
+                        <li class="modLink">Better Biome Blend</li>
+                        <li class="modLink">Better FPS - Render Distance</li>
+                        <li class="modLink">Better Than Mending</li>
+                        <li class="modLink">Biomes O' Plenty</li>
+                        <li class="modLink">Blahaj</li>
+                        <li class="modLink">Bookshelf</li>
+                        <li class="modLink">Botania</li>
+                        <li class="modLink">CC: Tweaked</li>
+                        <li class="modLink">MrCrayfish's Furniture Mod</li>
+                        <li class="modLink">MrCrayfish's Gun Mod</li>
+                        <li class="modLink">Chunk Loaders</li>
+                        <li class="modLink">Chunky (This is a Good Idea for Future Servers)</li>
+                        <li class="modLink">Citadel</li>
+                        <li class="modLink">Cloth Config</li>
+                        <li class="modLink">Clumps</li>
+                        <li class="modLink">CoFH Core</li>
+                        <li class="modLink">Comforts</li>
+                        <li class="modLink">Construction Wand (Critical for Road Construction)</li>
+                        <li class="modLink">Corpse</li>
+                        <li class="modLink">Cosmetic Armor Reworked</li>
+                        <li class="modLink">Create</li>
+                        <li class="modLink">Create Enchantment Industry</li>
+                        <li class="modLink">Create Crafts and Additions</li>
+                        <li class="modLink">Curios</li>
+                        <li class="modLink">Decorative Gaming Consoles</li>
+                        <li class="modLink">Dimensional Threading Reforged</li>
+                        <li class="modLink">Dungeons Arise</li>
+                        <li class="modLink">Dynamic Lights Reforged (DON'T PUT THIS SHIT ON THE SERVER!!)</li>
+                        <li class="modLink">Dynamic View</li>
+                        <li class="modLink">OpenBlocks Elevator</li>
+                        <li class="modLink">Embeddium</li>
+                        <li class="modLink">Enchantment Descriptions</li>
+                        <li class="modLink">End Remastered (I really liked this one! We should do it again)</li>
+                        <li class="modLink">Enhanced Block Entities Reforged</li>
+                        <li class="modLink">Entity Culling</li>
+                        <li class="modLink">Etched</li>
+                        <li class="modLink">ExpandAbility</li>
+                        <li class="modLink">Farmer's Delight</li>
+                        <li class="modLink">Fast Furnace</li>
+                        <li class="modLink">Fastload Reforged</li>
+                        <li class="modLink">Fast Suite</li>
+                        <li class="modLink">Fast Workbench</li>
+                        <li class="modLink">FerriteCore</li>
+                        <li class="modLink">Figura (Wish I Knew Why It Wouldn't Work for Me :pensive:)</li>
+                        <li class="modLink">ForgetMeChunk</li>
+                        <li class="modLink">Framework</li>
+                        <li class="modLink">Geckolib</li>
+                        <li class="modLink">Get It Together, Drops!</li>
+                        <li class="modLink">Goblin Traders</li>
+                        <li class="modLink">Hexcasting</li>
+                        <li class="modLink">Hexal</li>
+                        <li class="modLink">Immersive Paintings</li>
+                        <li class="modLink">Immersive Engineering</li>
+                        <li class="modLink">Jade</li>
+                        <li class="modLink">Jade Addons</li>
+                        <li class="modLink">JEI</li>
+                        <li class="modLink">Just Enough Immersive Multiblocks</li>
+                        <li class="modLink">JER</li>
+                        <li class="modLink">Konkrete</li>
+                        <li class="modLink">Kotlin for Forge</li>
+                        <li class="modLink">L_Ender 's Cataclysm</li>
+                        <li class="modLink">Lazydfu</li>
+                        <li class="modLink">Leaves Be Gone</li>
+                        <li class="modLink">LibIPN</li>
+                        <li class="modLink">Mantle</li>
+                        <li class="modLink">Materialis</li>
+                        <li class="modLink">Meet Your Fight</li>
+                        <li class="modLink">Mekanism</li>
+                        <li class="modLink">Mekanism Generators</li>
+                        <li class="modLink">Mekanism Tools</li>
+                        <li class="modLink">Moonlight Lib</li>
+                        <li class="modLink">More Dragon Eggs</li>
+                        <li class="modLink">Mother Silverfish</li>
+                        <li class="modLink">Moyai (Bring This Bad Boy Back for the Next Server)</li>
+                        <li class="modLink">Nature's Compass</li>
+                        <li class="modLink">Patchouli</li>
+                        <li class="modLink">Paucal</li>
+                        <li class="modLink">Placebo</li>
+                        <li class="modLink">Pollen</li>
+                        <li class="modLink">Polymorph</li>
+                        <li class="modLink">Psi</li>
+                        <li class="modLink">PuzzlesLib</li>
+                        <li class="modLink">Refined Storage</li>
+                        <li class="modLink">Refined Storage Addons</li>
+                        <li class="modLink">Reforgium</li>
+                        <li class="modLink">Rubidium Extras</li>
+                        <li class="modLink">Sophisticated Backpacks</li>
+                        <li class="modLink">Sophisticated Core</li>
+                        <li class="modLink">Storage Drawers</li>
+                        <li class="modLink">Supermartijn642's Config Lib</li>
+                        <li class="modLink">Supermartijn642's Core Lib</li>
+                        <li class="modLink">Supplementaries</li>
+                        <li class="modLink">Tinker's Construct</li>
+                        <li class="modLink">Tinker's Leveling Addon</li>
+                        <li class="modLink">Tinker's Planner</li>
+                        <li class="modLink">TerraBlender</li>
+                        <li class="modLink">Thermal Dynamics</li>
+                        <li class="modLink">Thermal Cultivation</li>
+                        <li class="modLink">Thermal Expansion</li>
+                        <li class="modLink">Thermal Foundation</li>
+                        <li class="modLink">Thermal Innovation</li>
+                        <li class="modLink">Thermal Integration</li>
+                        <li class="modLink">Thermal Locomotion</li>
+                        <li class="modLink">Tiny Coal</li>
+                        <li class="modLink">Tom's Simple Storage (BAD!!)</li>
+                        <li class="modLink">Tom's Peripherals</li>
+                        <li class="modLink">Trade Cycling</li>
+                        <li class="modLink">Twilight Forest</li>
+                        <li class="modLink">Waystones</li>
+                        <li class="modLink">Wither Skeleton Tweaks (GOOD!!)</li>
+                        <li class="modLink">Xaero's World Map</li>
+                        <li class="modLink">Music Maker Mod (Eh, It's Whatever)</li>
+                        <li class="modLink">Yung's API (These Were All Fine, I probably Wouldn't Use Them Again)</li>
+                        <li class="modLink">Yung's Better Desert Temples</li>
+                        <li class="modLink">Yung's Better Dungeons</li>
+                        <li class="modLink">Yung's Better Mineshafts</li>
+                        <li class="modLink">Yung's Better Ocean Monuments</li>
+                        <li class="modLink">Yung's Better Witch Huts</li>
+                        <li class="modLink">Ultimate Car Mod</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="checkoutWrapper">
+            <div class="checkoutFiller">
+                <p class="downloadTitle"><b>Download Now!</b></p>
+
+                <p>Get <b>Fast, Free Downloads</b> with <a class="link" href="/pages/purchase.html">Goes Hard Inc. Premium</a></p>
+                <p>FREE delivery <b class="deliveryDate"></b> on orders over 15GB</p>
+                <p>Or <a class="link" href="/pages/purchase.html">Premium members</a> get FREE delivery <b class="premDeliveryDate"></b>. Order within -2147483647 hours.
+                <a class="link" href="/pages/purchase.html">Join Premium</a></p>
+            </div>
+            <div class="mapLink">
+                <a class="checkoutButton webMap" href="">Unavailable</a>
+            </div>
+            <div class="modpackLinkButton">
+                <a class="checkoutButton modpack" href="Goes Hard Inc.mrpack" download>Download Modpack</a>
+            </div>
+            <div class="worldDownloadButton">
+                <a class="checkoutButton world" href="">Unavailable</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="additionalInfo">
+        <p>Have more screenshots or images you'd like added to this world?
+            Or have a world that you'd like to see displayed here? Bedrock or Java?
+            Then send me a message on Discord! @justflavio</p>
+    </div>
+
+    <script src="../../script.js"></script>
+</body>
+</html>

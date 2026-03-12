@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../../style.css">
+    <title>The Full</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+    <div class="header">
+        <a href="/"><img class="logo" src="../../amazon logo.png" /></a>
+        
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="hamburgerIcon" onclick="openHamburger()">
+            <img class="burger" src="../../burger-menu-svgrepo-com.svg">
+        </a>
+        <div class="navigation">
+            <a class="navLink" href="/">Home</a>
+            <a class="navLink" href="/pages/faqs.html">FAQs</a>
+            <a class="navLink" href="/pages/suggestions.html">Suggestions</a>
+            <a class="navLink" href="/pages/about.html">About</a>
+        </div>
+        <div class="forStyling"></div>
+        <!-- Navigation links (hidden by default) -->
+    </div>
+    <div class="mobileNav">
+        <a class="navLink" href="/">Home</a>
+        <a class="navLink" href="/pages/faqs.html">FAQs</a>
+        <a class="navLink" href="/pages/suggestions.html">Suggestions</a>
+        <a class="navLink" href="/pages/about.html">About</a>
+    </div>
+
+    <div class="mainContent">
+        <div class="mobileServerName">The Full</div>
+        <div class="serverImages">
+            <div class="listOfImages"></div>
+            <div class="currentImage"><img class="bigImage" id="bigImage" onclick="enlargeImage(this.src)" /></div>
+        </div>
+
+        <div class="serverInformation">
+            <div class="serverName">The Full</div>
+            
+            <hr />
+            
+            <div class="downloadSize">
+                <p class="worldDownloadSize">World Download: 1.45GB</p>
+                <p class="modpackDownloadSize">Modpack Download: 144MB</p>
+            </div>
+            
+            <hr />
+
+            <div class="aboutServer">
+                <div class="aboutTitle">About this Server</div>
+                <ul>
+                    <li>Began August 30 2023</li>
+                    <li>Ended November 6, 2023</li>
+                    <li>Ran on Minecraft Version 1.19.2</li>
+                </ul>
+                
+                <hr />
+
+                <div class="modListWrapper">
+                    <div class="modsTitle">Mods Used</div>
+                    <ul class="modList">
+                        <li class="modLink">Animal Feeding Trough</li>
+                        <li class="modLink">Applied Energistics 2</li>
+                        <li class="modLink">Architectury</li>
+                        <li class="modLink">Better than Mending</li>
+                        <li class="modLink">Blahaj</li>
+                        <li class="modLink">Bountiful</li>
+                        <li class="modLink">Cardinal Components API</li>
+                        <li class="modLink">CC: Restitched</li>
+                        <li class="modLink">Chunk Loaders</li>
+                        <li class="modLink">Cloth Config API</li>
+                        <li class="modLink">Clumps</li>
+                        <li class="modLink">Comforts</li>
+                        <li class="modLink">Create Mod</li>
+                        <li class="modLink">Create Enchantment Industry</li>
+                        <li class="modLink">Create Crafts and Additions</li>
+                        <li class="modLink">Create Big Cannons (We Needed More Metals :sob:)</li>
+                        <li class="modLink">Ducky Periphs</li>
+                        <li class="modLink">Entity Model Features</li>
+                        <li class="modLink">Entity Texture Features</li>
+                        <li class="modLink">Entity Culling</li>
+                        <li class="modLink">Etched</li>
+                        <li class="modLink">Extended Drawers</li>
+                        <li class="modLink">Fabric API (Obviously)</li>
+                        <li class="modLink">Fabric Language Kotlin</li>
+                        <li class="modLink">Farmer's Delight</li>
+                        <li class="modLink">Geckolib</li>
+                        <li class="modLink">Hexcasting</li>
+                        <li class="modLink">Hexal</li>
+                        <li class="modLink">Hexgloop</li>
+                        <li class="modLink">Hookshot</li>
+                        <li class="modLink">Immersive Paintings</li>
+                        <li class="modLink">Indium</li>
+                        <li class="modLink">Inmis</li>
+                        <li class="modLink">InmisAddon</li>
+                        <li class="modLink">Jade</li>
+                        <li class="modLink">Jade Addons</li>
+                        <li class="modLink">JEI</li>
+                        <li class="modLink">Kambrik</li>
+                        <li class="modLink">Lamb Dynamic Lights (smh, can't believe these fools made the mistake of putting this mod on the server)</li>
+                        <li class="modLink">Lazydfu</li>
+                        <li class="modLink">Lithium</li>
+                        <li class="modLink">Malilib</li>
+                        <li class="modLink">Minecraft Comes Alive (My Wife)</li>
+                        <li class="modLink">Moonlight</li>
+                        <li class="modLink">Moreiotas</li>
+                        <li class="modLink">Moyai</li>
+                        <li class="modLink">Nullscape (Stinky)</li>
+                        <li class="modLink">Paradise Lost (Stinky But Inoffensive)</li>
+                        <li class="modLink">Patchouli</li>
+                        <li class="modLink">Paucal</li>
+                        <li class="modLink">Pehkui</li>
+                        <li class="modLink">Polaroid Camera</li>
+                        <li class="modLink">Pollen</li>
+                        <li class="modLink">SuperMartijn642's Config Lib</li>
+                        <li class="modLink">SuperMartijn642's Core Lib</li>
+                        <li class="modLink">Supplementaries</li>
+                        <li class="modLink">Supplementaries Squared</li>
+                        <li class="modLink">Tom's Storage Fabric (This Shit Is a Lag Machine)</li>
+                        <li class="modLink">Tool Tip Fix</li>
+                        <li class="modLink">Trade Cycling</li>
+                        <li class="modLink">Twilight Forest</li>
+                        <li class="modLink">Universal Graves</li>
+                        <li class="modLink">Why Not Be One Item (WNBOI)</li>
+                        <li class="modLink">Xaero's World Map</li>
+                        <li class="modLink">Yung's API (These Were All Fine, I probably Wouldn't Use Them Again)</li>
+                        <li class="modLink">Yung's Better Desert Temples</li>
+                        <li class="modLink">Yung's Better Dungeons</li>
+                        <li class="modLink">Yung's Better Mineshafts</li>
+                        <li class="modLink">Yung's Better Nether Fortresses</li>
+                        <li class="modLink">Yung's Better Witch Huts</li>
+                        <li class="modLink">Yung's Bridges</li>
+                        <li class="modLink">Yung's Extras</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="checkoutWrapper">
+            <div class="checkoutFiller">
+                <p class="downloadTitle"><b>Download Now!</b></p>
+
+                <p>Get <b>Fast, Free Downloads</b> with <a class="link" href="/pages/purchase.html">Goes Hard Inc. Premium</a></p>
+                <p>FREE delivery <b class="deliveryDate"></b> on orders over 15GB</p>
+                <p>Or <a class="link" href="/pages/purchase.html">Premium members</a> get FREE delivery <b class="premDeliveryDate"></b>. Order within -2147483647 hours.
+                <a class="link" href="/pages/purchase.html">Join Premium</a></p>
+            </div>
+            <div class="mapLink">
+                <a class="checkoutButton webMap" href="web">View World in Browser</a>
+            </div>
+            <div class="modpackLinkButton">
+                <a class="checkoutButton modpack" href="The Full.mrpack" download>Download Modpack</a>
+            </div>
+            <div class="worldDownloadButton">
+                <a class="checkoutButton world" href="world-1-19-2.zip" download>Download World</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="additionalInfo">
+        <p>Have more screenshots or images you'd like added to this world?
+            Or have a world that you'd like to see displayed here? Bedrock or Java?
+            Then send me a message on Discord! @justflavio</p>
+    </div>
+
+    <script src="../../script.js"></script>
+</body>
+</html>
