@@ -2,6 +2,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler, SimpleHTTPRequestHan
 import os
 import re
 
+# if you want to access the website from other devices on your local network, you'll have to change HOST to your local IP adress
 HOST = "localhost"
 PORT = 3000
 
