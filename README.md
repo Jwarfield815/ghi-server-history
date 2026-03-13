@@ -7,7 +7,7 @@ Welcome to what I've been wasting my time on at work for the past few weeks! It 
 ## Future TODOs
 - Make the website not break visually when you rotate your phone (or prevent users from being able to rotate site on mobile?)
 - Figure out how to store larger files in the repo (maps, modpacks, tiles)
-- Potentially incorporate templating so that there isn't a bunch of copy-pasted html for the header and footer acroos pages. Though I'm concerned about the site losing it's simplicity.
+- Potentially incorporate templating so that there isn't a bunch of copy-pasted html for the header and footer across pages. Though I'm concerned about the site losing it's simplicity.
 - Add a file to the repo so you can get the site running by just typing a command
 
 ## Contribution
