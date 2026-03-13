@@ -8,6 +8,8 @@ Welcome to what I've been wasting my time on at work for the past few weeks! It 
 - Make the website not break visually when you rotate your phone (or prevent users from being able to rotate site on mobile?)
 - Figure out how to store larger files in the repo (maps, modpacks, tiles)
 - Potentially incorporate templating so that there isn't a bunch of copy-pasted html for the header and footer across pages. Though I'm concerned about the site losing it's simplicity.
+- Add markers to Dynmap
+- Add info about the Joseph Modded server that we played briefly with the MIC people (see if Joseph has the world download?)
 
 ## Limitations
 The world downloads, modpack files, and BlueMap tiles have not been added to the github due to size limitations. This is something I'd like to look into remedying in the future, but this is where we're at for now. However, It's unlikely that we'll be changing much BlueMap stuff or world downloads moving forward, so it's unlikely that you'll need those files.
