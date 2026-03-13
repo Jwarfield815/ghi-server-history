@@ -1,3 +1,4 @@
+# This file is not used to run the web server in production, it is only for local testing purposes
 from http.server import HTTPServer, BaseHTTPRequestHandler, SimpleHTTPRequestHandler
 import os
 import re
@@ -28,7 +29,17 @@ class MyHttp(SimpleHTTPRequestHandler):
             elif self.path.endswith("/images"):
                 self.send_response(200)
                 self.end_headers()
-                self.wfile.write(str(sorted(os.listdir(path))).encode())
+
+                files = sorted(os.listdir(path))
+                jsonFilesData = "["
+                for (name) in files:
+                    jsonFilesData += "{ \"name\": \"" + name + "\", \"type\":\"file\", \"mtime\": \"Tue, 10 Mar 2026 05:19:57 GMT\", \"size\":10620431 },"
+                
+                # remove trailing comma
+                jsonFilesData = jsonFilesData[:-1]
+                jsonFilesData += "]"
+
+                self.wfile.write(str(jsonFilesData).encode())
             else:
                 super().do_GET()
         except Exception as err:
