@@ -36,8 +36,8 @@ body {
 }
 
 .giantImage {
-    z-index: inherit;
-    width: 90vw;
+    z-index: 99999;
+    /* width: 90vw; */
     height: 90vh;
     object-fit: contain;
 }

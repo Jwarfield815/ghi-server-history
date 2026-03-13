@@ -127,5 +127,13 @@ function createImages() {
         .catch(error => console.error(error));
 }
 
+function addClickOffToClose(clickedElement) {
+    if (clickedElement.target.classList.contains("giantImageContainer")) {
+        closeGiantImage();
+    }
+}
+
+
+document.querySelector(".giantImageContainer").onclick = addClickOffToClose;
 createImages();
 insertDeliveryDate();
