@@ -77,7 +77,7 @@
                 <a class="link" href="/pages/purchase.html">Join Premium</a></p>
             </div>
             <div class="mapLink">
-                <a class="checkoutButton webMap" href="http://foreverworld.theworkpc.com:25572">View World in Browser</a>
+                <a class="checkoutButton webMap" href="http://goeshardinc.com:25572">View World in Browser</a>
             </div>
             <div class="modpackLinkButton">
                 <a class="checkoutButton modpack" href="forever_world.zip" download>Download World</a>
@@ -95,5 +95,11 @@
     </div>
 
     <script src="../../script.js"></script>
+    <script>
+        console.log(window.location.hostname)
+        if (window.location.hostname != "localhost") {
+            document.querySelector(".modpack").href = 'http://' + window.location.hostname + ':25572'
+        }
+    </script>
 </body>
 </html>

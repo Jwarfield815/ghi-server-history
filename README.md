@@ -17,4 +17,12 @@ The world downloads, modpack files, and BlueMap tiles have not been added to the
 If you would like those larger files that aren't stored on the repo, reach out to me on discord and I can get them to you.
 
 ## Contribution
-If you'd like to contribute to this project, just request access! I'd love to see what else we can do with this. To run the server youself, just clone the repo and run python startWebServer.py. Then the website should be on localhost:3000.
+If you'd like to contribute to this project, just request access! I'd love to see what else we can do with this.
+
+### Running the Web Server
+To run the server youself, just clone the repo and run python startWebServer.py. Then the website should be on localhost:3000
+
+### Updating Markers
+To update markers, first, make your changes in the overworld.conf (or other corresponding .conf file). Then, you'll have to download the BlueMap CLI from here: https://github.com/BlueMap-Minecraft/BlueMap/releases Place the .jar file in the same directory as the web and config folders, then run the command "java -jar yourbluemapjarfile.jar --markers"
+
+You can see more info and documentation on BlueMap here: https://bluemap.bluecolored.de/
