@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-
 <body>
     <div class="header">
         <a href="/"><img class="logo" src="../../amazon logo.png" /></a>
@@ -23,8 +22,8 @@
             <a class="navLink" href="/pages/about.html">About</a>
         </div>
         <div class="forStyling"></div>
-        <!-- Navigation links (hidden by default) -->
     </div>
+
     <div class="mobileNav">
         <a class="navLink" href="/">Home</a>
         <a class="navLink" href="/pages/faqs.html">FAQs</a>
@@ -32,11 +31,16 @@
         <a class="navLink" href="/pages/about.html">About</a>
     </div>
 
+    <div class="giantImageContainer">
+        <img src="/servers/unnamed2023/images/no%20images.png" class="giantImage" />
+        <button class="closeButton" onclick="closeGiantImage()">X</button>
+    </div>
+
     <div class="mainContent">
         <div class="mobileServerName">The Full</div>
         <div class="serverImages">
             <div class="listOfImages"></div>
-            <div class="currentImage"><img class="bigImage" id="bigImage" onclick="enlargeImage(this.src)" /></div>
+            <div class="currentImage" onclick="enlargeImage(this)"><img class="bigImage" id="bigImage" /></div>
         </div>
 
         <div class="serverInformation">
