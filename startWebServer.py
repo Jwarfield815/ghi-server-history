@@ -3,7 +3,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler, SimpleHTTPRequestHan
 import os
 import re
 
-# if you want to access the website from other devices on your local network, you'll have to change HOST to your local IP adress
+# if you want to access the website from other devices on your local network, you'll have to change the value of HOST to your local IP adress
 HOST = "localhost"
 PORT = 3000
 
@@ -12,6 +12,7 @@ class MyHttp(SimpleHTTPRequestHandler):
         try:
             path = os.getcwd() + self.path
             contentType = ""
+
             if self.path.endswith(".json"):
                 contentType = "application/json"
             elif self.path.endswith(".prbm"):
@@ -26,6 +27,7 @@ class MyHttp(SimpleHTTPRequestHandler):
                 self.send_header("Content-Type", contentType)
                 self.end_headers()
                 self.wfile.write(data)
+                
             elif self.path.endswith("/images"):
                 self.send_response(200)
                 self.end_headers()
@@ -33,7 +35,9 @@ class MyHttp(SimpleHTTPRequestHandler):
                 files = sorted(os.listdir(path))
                 jsonFilesData = "["
                 for (name) in files:
-                    jsonFilesData += "{ \"name\": \"" + name + "\", \"type\":\"file\", \"mtime\": \"Tue, 10 Mar 2026 05:19:57 GMT\", \"size\":10620431 },"
+                    # matches nginx config
+                    # jsonFilesData += "{ \"name\": \"" + name + "\", \"type\":\"file\", \"mtime\": \"Tue, 10 Mar 2026 05:19:57 GMT\", \"size\":10620431 },"
+                    jsonFilesData += name
                 
                 # remove trailing comma
                 jsonFilesData = jsonFilesData[:-1]

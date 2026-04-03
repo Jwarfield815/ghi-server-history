@@ -34,7 +34,9 @@ function openHamburger() {
     }
 }
 
-// clone the image/video element from the sidebar that was clicked on, then remove the current image/video, and replace it with the new one, then mark the sidebar image as selected
+// clone the image/video element from the sidebar that was clicked on,
+// then remove the current image/video, and replace it with the new one,
+// then mark the sidebar image as selected
 function changeImage(imgElementOriginal) {
     let bigImage = document.getElementById("bigImage");
     let currImage = document.querySelector(".currentImage");
@@ -74,16 +76,17 @@ function createImages() {
         .then(response => response.text())
         .then(data => {
 
+            console.log(data);
+
             let arrayJson = JSON.parse(data.replaceAll(`'`, `"`));
             let fileNum = 0;
             let toAppend;
 
-            arrayJson.forEach(fileData => {
-                let fileName = fileData.name;
+            arrayJson.forEach(fileName => {
                 let fileType = fileName.split(".").pop();
                 
                 // if the file is a video, then get it's thumbnail from the /thumbs folder, and then place it in the sidebar, with no controls
-                if (fileName.match(/.+\..{2,6}$/g)) {
+                if (fileName.match(/.+\.(?!php).{2,6}$/g)) {
                     if (fileType == "mp4") {
                         const vid = document.createElement("video");
                         const source = document.createElement("source");
