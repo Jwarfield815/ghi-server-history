@@ -37,7 +37,7 @@ class MyHttp(SimpleHTTPRequestHandler):
                 for (name) in files:
                     # matches nginx config
                     # jsonFilesData += "{ \"name\": \"" + name + "\", \"type\":\"file\", \"mtime\": \"Tue, 10 Mar 2026 05:19:57 GMT\", \"size\":10620431 },"
-                    jsonFilesData += name
+                    jsonFilesData += "\"" + name + "\","
                 
                 # remove trailing comma
                 jsonFilesData = jsonFilesData[:-1]
