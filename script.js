@@ -75,9 +75,6 @@ function createImages() {
     fetch('images')
         .then(response => response.text())
         .then(data => {
-
-            console.log(data);
-
             let arrayJson = JSON.parse(data.replaceAll(`'`, `"`));
             let fileNum = 0;
             let toAppend;
