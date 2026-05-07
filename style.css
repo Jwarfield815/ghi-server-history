@@ -146,6 +146,13 @@ body {
     background-position-y: center;
 }
 
+.skyblock {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/skyblock.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 .theFull {
     background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/1192.webp");
     background-size: cover;
