@@ -104,6 +104,13 @@ body {
     padding-left: 10%;
 }
 
+.takingFlight {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/no images.png");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 .foreverWorld {
     background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/foreverworld.png");
     background-size: cover;
@@ -111,36 +118,29 @@ body {
     background-position-y: center;
 }
 
-.joe {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/joe.png");
+.incorporated {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/1201.jpg");
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
+    background-position-y: 75%;
 }
 
-.eli {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/eli.png");
+.mpreg {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/1122.gif");
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
+    background-position-y: 25%;
 }
 
-.natold {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/natold.png");
+.GHI {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/1182.jpg");
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
+    background-position-y: 15%;
 }
 
-.natnew {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/natnew.png");
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-}
-
-.unnamed2023 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/minecraft.png");
+.theFull {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/1192.webp");
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -153,33 +153,41 @@ body {
     background-position-y: center;
 }
 
-.theFull {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/1192.webp");
+.unnamed2023 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/minecraft.png");
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
 
-.GHI {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/1182.jpg");
+.natnew {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/natnew.png");
     background-size: cover;
     background-position-x: center;
-    background-position-y: 15%;
+    background-position-y: center;
 }
 
-.mpreg {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/1122.gif");
+.natold {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/natold.png");
     background-size: cover;
     background-position-x: center;
-    background-position-y: 25%;
+    background-position-y: center;
 }
 
-.incorporated {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/1201.jpg");
+.eli {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/eli.png");
     background-size: cover;
     background-position-x: center;
-    background-position-y: 75%;
+    background-position-y: center;
 }
+
+.joe {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/images/joe.png");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 
 @media (max-width: 1000px) {
     .worldIndividualWrapper {

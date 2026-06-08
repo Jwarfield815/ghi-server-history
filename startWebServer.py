@@ -52,7 +52,7 @@ class MyHttp(SimpleHTTPRequestHandler):
             self.send_response(204)
 
 server = HTTPServer((HOST, PORT), MyHttp)
-print ("Server now running...")
+print ("Server now running at http://" + HOST + ":" + str(PORT))
 
 server.serve_forever()
 server.server_close()
