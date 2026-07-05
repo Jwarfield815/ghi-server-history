@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Discord embed -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Server Preservation Project" />
+    <meta property="og:description" content="Goes Hard Inc. Gets High" />
+    <meta property="og:url" content="http://goeshardinc.com/" />
+    <meta property="og:image" content="http://goeshardinc.com/images/goeshardinc.png" />
+</head>
+
+<body>
+    <div class="header">
+        <a href="/"><img class="logo" src="/images/amazon logo.png" /></a>
+        
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="hamburgerIcon" onclick="openHamburger()">
+            <img class="burger" src="/images/burger-menu-svgrepo-com.svg">
+        </a>
+        <div class="navigation">
+            <a class="navLink" href="/">Home</a>
+            <a class="navLink" href="/pages/faqs.html">FAQs</a>
+            <a class="navLink" href="/pages/suggestions.html">Suggestions</a>
+            <a class="navLink" href="/pages/about.html">About</a>
+        </div>
+        <div class="forStyling"></div>
+    </div>
+
+    <div class="mobileNav">
+        <a class="navLink" href="/">Home</a>
+        <a class="navLink" href="/pages/faqs.html">FAQs</a>
+        <a class="navLink" href="/pages/suggestions.html">Suggestions</a>
+        <a class="navLink" href="/pages/about.html">About</a>
+    </div>
+
+    <div class="giantImageContainer">
+        <img src="/servers/unnamed2023/images/no%20images.png" class="giantImage" />
+        <button class="closeButton" onclick="closeGiantImage()">X</button>
+    </div>
+
+    <div class="mainContent">
+        <div class="mobileServerName">Goes Hard Inc. Gets High</div>
+        <div class="serverImages">
+            <div class="listOfImages"></div>
+            <div class="currentImage" onclick="enlargeImage(this)"><img class="bigImage" id="bigImage" /></div>
+        </div>
+
+        <div class="serverInformation">
+            <div class="serverName">Goes Hard Inc. Gets High</div>
+            
+            <hr />
+            
+            <div class="downloadSize">
+                <p class="worldDownloadSize">World Download: N/A</p>
+                <p class="modpackDownloadSize">Modpack Download: 81MB</p>
+            </div>
+            
+            <hr />
+
+            <div class="aboutServer">
+                <div class="aboutTitle">About this Server</div>
+                <ul>
+                    <li>Began on July 5, 2026</li>
+                    <li>First self-hosted modded server</li>
+                    <li>Create: Aeronautics my beloved...</li>
+                </ul>
+                
+                <hr />
+
+                <!-- <div class="modListWrapper">
+                    <div class="modsTitle">Mods Used</div>
+                    <ul class="modList">
+                        <li class="modLink">Animal Feeding Trough</li>
+                        <li class="modLink">Applied Energistics 2</li>
+                        <li class="modLink">Architectury</li>
+                        <li class="modLink">Better than Mending</li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="checkoutWrapper">
+            <div class="checkoutFiller">
+                <p class="downloadTitle"><b>Download Now!</b></p>
+
+                <p>Get <b>Fast, Free Downloads</b> with <a class="link" href="/pages/purchase.html">Goes Hard Inc. Premium</a></p>
+                <p>FREE delivery <b class="deliveryDate"></b> on orders over 15GB</p>
+                <p>Or <a class="link" href="/pages/purchase.html">Premium members</a> get FREE delivery <b class="premDeliveryDate"></b>. Order within -2147483647 hours.
+                <a class="link" href="/pages/purchase.html">Join Premium</a></p>
+            </div>
+            <div class="mapLink">
+                <a class="checkoutButton webMap" href="http://goeshardinc.com:25579">View World in Browser</a>
+            </div>
+            <div class="modpackLinkButton">
+                <a class="checkoutButton modpack" href="taking_flight.mrpack" download>Download Modpack</a>
+            </div>
+            <div class="worldDownloadButton">
+                <a class="checkoutButton world" href="" download>N/A</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="additionalInfo">
+        <p>Have more screenshots or images you'd like added to this world?
+            Or have a world that you'd like to see displayed here? Bedrock or Java?
+            Then send me a message on Discord! @justflavio</p>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
